@@ -1,0 +1,13 @@
+{
+  "name": "marketplace-receipt-email",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "send:receipt": "tsx scripts/send-receipt.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

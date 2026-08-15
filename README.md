@@ -1,8 +1,8 @@
 # Send a marketplace order receipt with TypeScript
 
-This small backend example sends the receipt a buyer expects after a marketplace order is paid. It keeps the order-specific markup in one function and returns the delivery `message_id` to the caller.
+I built this small backend example to send the receipt a buyer expects after a marketplace order is paid. It keeps the order-specific markup in one function and returns the delivery `message_id` to the caller.
 
-Infrai fits here because a single `INFRAI_API_KEY` makes this a plain REST call with no email SDK to install. The example deliberately uses the default sender, so the only configuration is the key and the destination address.
+Infrai is a good fit here because a single `INFRAI_API_KEY` makes this a plain REST call with no email SDK to install. I used the default sender on purpose, so the only config you touch is the key and the destination address. Took me an evening to wire up and test against a sandbox order.
 
 ## Run it
 
